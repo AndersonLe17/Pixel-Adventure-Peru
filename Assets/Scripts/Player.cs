@@ -4,74 +4,73 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    private Rigidbody2D rb2D;
-    [Header("Movimiento")]
-	private float movimientoHorizontal = 0f;
-	[SerializeField] private float velocidadMovimiento;
-	[Range(0, 0.3f)][SerializeField] private float suavizadorMovimiento;
-	private Vector3 velocidad = Vector3.zero;
-	private bool mirandoDerecha = true;
-	
-	[Header("Salto")]
-	[SerializeField] private float fuerzaSalto;
-	[SerializeField] private LayerMask queEsSuelo;
-	[SerializeField] private Transform controladorSuelo;
-	[SerializeField] private Vector3 dimensionesCaja;
-	[SerializeField] private bool enSuelo;
-	private bool salto = false;
+	public float runSpeed = 2;
+	public float jumpSpeed = 2;
+
+	Rigidbody2D rb2D;
+
+	public bool betterJump = false;
+	public float fallMultiplier = 0.5f;
+	public float lowJumpMultiplier = 1f;
+
+	public SpriteRenderer spriteRenderer;
+	public Animator animator;
+
     // Start is called before the first frame update
     void Start()
     {
-        rb2D = GetComponent<Rigidbody2D>();
+		rb2D = GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
-    void Update()
-    {
-        movimientoHorizontal = Input.GetAxisRaw("Horizontal") * velocidadMovimiento;
-		
-		if(Input.GetButtonDown("Jump"))
+    void FixedUpdate()
+	{
+		if (Input.GetKey("d") || Input.GetKey("right"))
 		{
-			salto = true;
+			rb2D.velocity = new Vector2(runSpeed, rb2D.velocity.y);
+			spriteRenderer.flipX = false;
+			animator.SetBool("Run",true);
 		}
-    }
-
-    private void FixedUpdate()
-	{
-		enSuelo = Physics2D.OverlapBox(controladorSuelo.position, dimensionesCaja, 0f, queEsSuelo);
-		Mover(movimientoHorizontal * Time.fixedDeltaTime, salto);
-		salto = false;
-	}
-
-    private void Mover(float mover, bool saltar)
-	{
-		Vector3 velocidadObjetivo = new Vector2(mover, rb2D.velocity.y);
-		rb2D.velocity = Vector3.SmoothDamp(rb2D.velocity, velocidadObjetivo, ref velocidad, suavizadorMovimiento);
-		if(mover > 0 && !mirandoDerecha)
+		else if (Input.GetKey("a") || Input.GetKey("left"))
 		{
-			Girar();
+			rb2D.velocity = new Vector2(-runSpeed, rb2D.velocity.y);
+			spriteRenderer.flipX = true;
+			animator.SetBool("Run",true);
 		}
-		else if (mover < 0 && mirandoDerecha)
+		else
 		{
-			Girar();
+			rb2D.velocity = new Vector2(0, rb2D.velocity.y);
+			animator.SetBool("Run",false);
 		}
-		if(enSuelo && saltar){
-			enSuelo = false;
-			rb2D.AddForce(new Vector2(0f, fuerzaSalto));
+
+		if (Input.GetKey("space") && CheckGround.isGrounded) 
+		{
+			rb2D.velocity = new Vector2(rb2D.velocity.x, jumpSpeed);
+
 		}
+
+		if (CheckGround.isGrounded == false)
+		{
+			animator.SetBool("Jump",true);
+			animator.SetBool("Run",false);
+		} 
+		else
+		{
+			animator.SetBool("Jump",false);
+		}
+
+		if (betterJump)
+		{
+			if (rb2D.velocity.y < 0)
+			{
+				rb2D.velocity += Vector2.up * Physics2D.gravity.y * (fallMultiplier) * Time.deltaTime;
+			}
+			if (rb2D.velocity.y > 0 && !Input.GetKey("space"))
+			{
+				rb2D.velocity += Vector2.up * Physics2D.gravity.y * (lowJumpMultiplier) * Time.deltaTime;
+			}
+		}
+
 	}
 
-    private void Girar()
-	{
-		mirandoDerecha = !mirandoDerecha;
-		Vector3 escala = transform.localScale;
-		escala.x *= -1;
-		transform.localScale = escala;
-	}
-	
-	private void OnDrawGizmos()
-	{
-		Gizmos.color = Color.yellow;
-		Gizmos.DrawWireCube(controladorSuelo.position, dimensionesCaja);
-	}
 }
