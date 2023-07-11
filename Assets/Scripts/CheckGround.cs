@@ -8,13 +8,14 @@ public class CheckGround : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision) 
     {
-        isGrounded = true;
-
+        if (!collision.gameObject.CompareTag("Item"))
+        {
+            isGrounded = true;
+        }
     }
 
     private void OnTriggerExit2D(Collider2D collision) 
     {
         isGrounded = false;
-        
     }
 }
