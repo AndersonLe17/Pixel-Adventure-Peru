@@ -13,7 +13,7 @@ public class ControllerIndicator : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -23,7 +23,8 @@ public class ControllerIndicator : MonoBehaviour
         txtFruits.text = fruits.ToString();
     }
 
-    private void OnTriggerEnter2D(Collider2D other) {
+    private void OnTriggerEnter2D(Collider2D other)
+    {
         if (other.gameObject.CompareTag("Item"))
         {
             fruits += 1;
@@ -46,4 +47,20 @@ public class ControllerIndicator : MonoBehaviour
         }
     }
 
+    private void OnCollisionEnter2D(Collision2D other) {
+        if (other.gameObject.CompareTag("Enemy"))
+        {
+            lifes -= 1;
+
+            //evaluateLife
+            if (lifes <= 0)
+            {
+                SceneManager.LoadScene(0);
+            }
+            else
+            {
+                txtFruits.text = fruits.ToString();
+            }
+        }
+    }
 }
