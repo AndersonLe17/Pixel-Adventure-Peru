@@ -1,7 +1,19 @@
 fileFormatVersion: 2
-guid: 39d87acf46c35954fb44680325cf2ab6
+guid: bcdc1f72f3c348b45bb1484d550c75ee
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -7184453141422777021
+    second: On (32x10)_0
+  - first:
+      213: -478649534418853393
+    second: On (32x10)_1
+  - first:
+      213: -3554031824873935288
+    second: On (32x10)_2
+  - first:
+      213: -5902476256046710882
+    second: On (32x10)_3
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -33,7 +45,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -62,15 +74,15 @@ TextureImporter:
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
-  applyGammaDecoding: 0
-  cookieLightType: 0
+  applyGammaDecoding: 1
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -82,7 +94,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -94,7 +106,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -105,13 +117,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Flying (46x30)_0
+      name: On (32x10)_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 46
-        height: 30
+        width: 32
+        height: 10
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -119,20 +131,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1327b7aff5919f74ea219354ac76ac64
-      internalID: 1434452121
+      spriteID: 8da9eb9b34855e04c8989dfd97414b27
+      internalID: -7184453141422777021
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Flying (46x30)_1
+      name: On (32x10)_1
       rect:
         serializedVersion: 2
-        x: 46
+        x: 32
         y: 0
-        width: 46
-        height: 30
+        width: 32
+        height: 10
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,20 +152,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: db03dce92d58fb84e81dcd1d91b15a53
-      internalID: 195469218
+      spriteID: eb7a6d9095a1e3c439248e3c54e6e2f2
+      internalID: -478649534418853393
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Flying (46x30)_2
+      name: On (32x10)_2
       rect:
         serializedVersion: 2
-        x: 92
+        x: 64
         y: 0
-        width: 46
-        height: 30
+        width: 32
+        height: 10
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -161,20 +173,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2389d7df6e4bad543b4b4bc51cd1f3ca
-      internalID: 2056513144
+      spriteID: 99bbe60fdd57fe04e8720ac2e2836dea
+      internalID: -3554031824873935288
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Flying (46x30)_3
+      name: On (32x10)_3
       rect:
         serializedVersion: 2
-        x: 138
+        x: 96
         y: 0
-        width: 46
-        height: 30
+        width: 32
+        height: 10
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -182,71 +194,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a04e49a3a36699e49ac1a83c9aadd123
-      internalID: -180427507
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Flying (46x30)_4
-      rect:
-        serializedVersion: 2
-        x: 184
-        y: 0
-        width: 46
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 07d4809a7056af2499785cac672f3e6c
-      internalID: 569316445
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Flying (46x30)_5
-      rect:
-        serializedVersion: 2
-        x: 230
-        y: 0
-        width: 46
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0a44511a8daa90c459c1c74e69323f50
-      internalID: 238049407
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Flying (46x30)_6
-      rect:
-        serializedVersion: 2
-        x: 276
-        y: 0
-        width: 46
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e6d44d1481973984fa07e636aa863cc4
-      internalID: 56921071
+      spriteID: 0406af3073e586440838b3851924105f
+      internalID: -5902476256046710882
       vertices: []
       indices: 
       edges: []
@@ -262,13 +211,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Flying (46x30)_0: 1434452121
-      Flying (46x30)_1: 195469218
-      Flying (46x30)_2: 2056513144
-      Flying (46x30)_3: -180427507
-      Flying (46x30)_4: 569316445
-      Flying (46x30)_5: 238049407
-      Flying (46x30)_6: 56921071
+      On (32x10)_0: -7184453141422777021
+      On (32x10)_1: -478649534418853393
+      On (32x10)_2: -3554031824873935288
+      On (32x10)_3: -5902476256046710882
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

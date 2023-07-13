@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -103,7 +103,259 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Run enmascarado_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 3
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 373c2c93a8ea59e45b39a94d42e3e176
+      internalID: -1709890888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run enmascarado_1
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 4
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd3b567a036e59f41a311499b7b7239e
+      internalID: -885155694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run enmascarado_2
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 4
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 088faf6887e06eb4db883f796cde6ad8
+      internalID: 1645780135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run enmascarado_3
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 2
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfdf5804cc20c6041806f01acae17d17
+      internalID: 1912409084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run enmascarado_4
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 0
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 413596de062c45f498309830df25723d
+      internalID: 443846020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run enmascarado_5
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 0
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f027945847a58954dbb64f1e5cc0af1a
+      internalID: -228836165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run enmascarado_6
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 3
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e513373f9d13f8d4ab0818573b797521
+      internalID: 1389730470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run enmascarado_7
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 4
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 935d2cbcca841154b8d3b5c82bdd4d39
+      internalID: 1346369684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run enmascarado_8
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 4
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bce3bc1beb523bc46934a00e16ecff2f
+      internalID: 47066702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run enmascarado_9
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 2
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99355a36d2b8378458c6754ba3a201f9
+      internalID: 322318291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run enmascarado_10
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 0
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3ef5273a6a0d4f4abdf5c01105e5478
+      internalID: 2062042376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run enmascarado_11
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 0
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6b43f6d8ad1b964d8a0e8633add4bcf
+      internalID: -1379379306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -114,7 +366,19 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Run enmascarado_0: -1709890888
+      Run enmascarado_1: -885155694
+      Run enmascarado_10: 2062042376
+      Run enmascarado_11: -1379379306
+      Run enmascarado_2: 1645780135
+      Run enmascarado_3: 1912409084
+      Run enmascarado_4: 443846020
+      Run enmascarado_5: -228836165
+      Run enmascarado_6: 1389730470
+      Run enmascarado_7: 1346369684
+      Run enmascarado_8: 47066702
+      Run enmascarado_9: 322318291
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

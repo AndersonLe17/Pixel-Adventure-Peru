@@ -6,7 +6,11 @@ TagManager:
   tags:
   - Item
   - EnemyObj
+<<<<<<< HEAD
   - Enemy
+=======
+  - Bat
+>>>>>>> origin/selva2
   layers:
   - Default
   - TransparentFX

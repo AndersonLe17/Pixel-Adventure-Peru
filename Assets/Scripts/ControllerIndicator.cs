@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class ControllerIndicator : MonoBehaviour
 {
@@ -28,6 +29,20 @@ public class ControllerIndicator : MonoBehaviour
             fruits += 1;
             txtFruits.text = fruits.ToString();
             Debug.Log(gameObject.tag);
+        }
+        if (other.gameObject.CompareTag("Bat"))
+        {
+            lifes -= 1;
+
+            //evaluateLife
+            if (lifes <= 0)
+            {
+                SceneManager.LoadScene(0);
+            }
+            else
+            {
+                txtFruits.text = fruits.ToString();
+            }
         }
     }
 
