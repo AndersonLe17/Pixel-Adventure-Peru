@@ -18,7 +18,7 @@ EditorBuildSettings:
     path: Assets/Scenes/GameScene.unity
     guid: c440cc2f5e9190f4782f52a6da170ec1
   - enabled: 1
-    path: Assets/Scenes/SierraScene.unity
+    path: Assets/Scenes/SierraPFScene.unity
     guid: 8068499b1f153e74c80069ea86dee052
   - enabled: 1
     path: Assets/Scenes/TestSelvaScene.unity
