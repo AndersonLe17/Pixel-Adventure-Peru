@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class CupEnd : MonoBehaviour
 {
+    public int scene = 0;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,7 +21,7 @@ public class CupEnd : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            SceneManager.LoadScene(0);
+            SceneManager.LoadScene(scene);
         }
     }
 }
