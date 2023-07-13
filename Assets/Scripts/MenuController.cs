@@ -14,6 +14,10 @@ public class MenuController : MonoBehaviour
     {
         SceneManager.LoadScene(1);
     }
+    public void Guia()
+    {
+        SceneManager.LoadScene(2);
+    }
 
     public void Salir()
     {

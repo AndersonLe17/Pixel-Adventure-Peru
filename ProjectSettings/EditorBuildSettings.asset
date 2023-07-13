@@ -23,4 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/TestSelvaScene.unity
     guid: 5b67fd4ba0951da4a90ca9d968c8c76e
+  - enabled: 1
+    path: Assets/Scenes/SierraScene.unity
+    guid: 5d814048b895fec4b85dd9f7ae2e2177
   m_configObjects: {}
