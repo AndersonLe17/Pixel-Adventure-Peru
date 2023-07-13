@@ -7,12 +7,12 @@ public class MenuController : MonoBehaviour
 {
     public void Jugar()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(3);
     }
 
     public void Test()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(1);
     }
 
     public void Salir()
