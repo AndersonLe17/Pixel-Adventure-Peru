@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Enmascarado : MonoBehaviour
+public class VacioDeath : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -16,7 +16,6 @@ public class Enmascarado : MonoBehaviour
     {
         
     }
-
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
