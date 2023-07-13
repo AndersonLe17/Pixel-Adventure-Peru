@@ -85,6 +85,7 @@ GameObject:
   - component: {fileID: 1328257228425402272}
   - component: {fileID: 1328257228425402279}
   - component: {fileID: 1328257228425402273}
+  - component: {fileID: 5085575948734215012}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -247,3 +248,19 @@ MonoBehaviour:
   lowJumpMultiplier: 1
   spriteRenderer: {fileID: 1328257228425402277}
   animator: {fileID: 1328257228425402276}
+--- !u!114 &5085575948734215012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1328257228425402283}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a471376cef1085f42b1f3a4ea86e6e19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  txtLifes: {fileID: 0}
+  lifes: 3
+  txtFruits: {fileID: 0}
+  fruits: 0
