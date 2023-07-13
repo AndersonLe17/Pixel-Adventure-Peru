@@ -1,7 +1,22 @@
 fileFormatVersion: 2
-guid: c3524c2db2f0e614b939629829aeb139
+guid: 0d45a0d8b949d0a4e9eafdc24f22ef64
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -5629135272633566843
+    second: Hit (52x34)_0
+  - first:
+      213: -2715152553310997712
+    second: Hit (52x34)_1
+  - first:
+      213: -4919157991825847783
+    second: Hit (52x34)_2
+  - first:
+      213: 5977564812290476861
+    second: Hit (52x34)_3
+  - first:
+      213: 2439156637083800784
+    second: Hit (52x34)_4
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -62,8 +77,8 @@ TextureImporter:
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
-  applyGammaDecoding: 0
-  cookieLightType: 0
+  applyGammaDecoding: 1
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -82,7 +97,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -94,7 +109,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -105,13 +120,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Run rino_0
+      name: Hit (52x34)_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 1
-        width: 50
-        height: 29
+        y: 0
+        width: 52
+        height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -119,20 +134,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6a3717efa520e8f499b44f2ebad8ab39
-      internalID: -1065484750
+      spriteID: 6d6bfbb8f41a7e240bcc70b9544aab73
+      internalID: -5629135272633566843
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Run rino_1
+      name: Hit (52x34)_1
       rect:
         serializedVersion: 2
         x: 52
-        y: 1
-        width: 50
-        height: 29
+        y: 0
+        width: 52
+        height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,20 +155,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ad76e147d913940418914d1026a3ce98
-      internalID: -1811698632
+      spriteID: 172e42dd771f45647a4cb5eb695871d6
+      internalID: -2715152553310997712
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Run rino_2
+      name: Hit (52x34)_2
       rect:
         serializedVersion: 2
         x: 104
         y: 0
-        width: 50
-        height: 29
+        width: 52
+        height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -161,20 +176,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e6da66755d24dbc4c8ff065603bff05c
-      internalID: -1872986145
+      spriteID: ac7ee83a2016e1b48ab33a0fcff9264c
+      internalID: -4919157991825847783
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Run rino_3
+      name: Hit (52x34)_3
       rect:
         serializedVersion: 2
         x: 156
-        y: 1
-        width: 50
-        height: 29
+        y: 0
+        width: 52
+        height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -182,41 +197,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a817c5a90dd5b054dae4edfe8fc68886
-      internalID: 775690019
+      spriteID: 84a9075d12a66824abfd17f76788cf62
+      internalID: 5977564812290476861
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Run rino_4
+      name: Hit (52x34)_4
       rect:
         serializedVersion: 2
         x: 208
-        y: 1
-        width: 50
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 354de418b1c0a7c42b95b08cbd0d9e24
-      internalID: 1249334381
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Run rino_5
-      rect:
-        serializedVersion: 2
-        x: 260
         y: 0
-        width: 50
-        height: 29
+        width: 52
+        height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -224,8 +218,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 742ed38e372c0264c80ab943961d57cd
-      internalID: 1469081501
+      spriteID: c01dd9590bc4b564fa092c905e801960
+      internalID: 2439156637083800784
       vertices: []
       indices: 
       edges: []
@@ -241,12 +235,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Run rino_0: -1065484750
-      Run rino_1: -1811698632
-      Run rino_2: -1872986145
-      Run rino_3: 775690019
-      Run rino_4: 1249334381
-      Run rino_5: 1469081501
+      Hit (52x34)_0: -5629135272633566843
+      Hit (52x34)_1: -2715152553310997712
+      Hit (52x34)_2: -4919157991825847783
+      Hit (52x34)_3: 5977564812290476861
+      Hit (52x34)_4: 2439156637083800784
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

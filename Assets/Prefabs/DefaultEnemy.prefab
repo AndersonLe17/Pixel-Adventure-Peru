@@ -374,7 +374,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.25, y: 0.025}
+  m_Size: {x: 0.15, y: 0.025}
   m_EdgeRadius: 0
 --- !u!114 &3856720171348677430
 MonoBehaviour:
@@ -394,6 +394,7 @@ MonoBehaviour:
   moveSpots:
   - {fileID: 3856720170910169911}
   - {fileID: 3856720170174827666}
+  startWaitTime: 2
 --- !u!114 &3856720171348677431
 MonoBehaviour:
   m_ObjectHideFlags: 0

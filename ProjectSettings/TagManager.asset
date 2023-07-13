@@ -3,19 +3,12 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - Item
-  - EnemyObj
-<<<<<<< HEAD
-  - Enemy
-=======
-  - Bat
->>>>>>> origin/selva2
+  tags: []
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - Suelo
+  - 
   - Water
   - UI
   - 

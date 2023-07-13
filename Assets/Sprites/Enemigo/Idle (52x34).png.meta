@@ -1,7 +1,40 @@
 fileFormatVersion: 2
-guid: 50519883486f1c34da294b79dd53297e
+guid: e3531be27cb827743bac8ea66dae5bfd
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -1075854790282143660
+    second: Idle (52x34)_0
+  - first:
+      213: 8655131874898858446
+    second: Idle (52x34)_1
+  - first:
+      213: -820654707376584040
+    second: Idle (52x34)_2
+  - first:
+      213: 156153531355689427
+    second: Idle (52x34)_3
+  - first:
+      213: 9127768303896570375
+    second: Idle (52x34)_4
+  - first:
+      213: 6417604408115182409
+    second: Idle (52x34)_5
+  - first:
+      213: 1174575801267489233
+    second: Idle (52x34)_6
+  - first:
+      213: 7140330242567135557
+    second: Idle (52x34)_7
+  - first:
+      213: -3136031247263263121
+    second: Idle (52x34)_8
+  - first:
+      213: 1513087955126141088
+    second: Idle (52x34)_9
+  - first:
+      213: -1195877170302790509
+    second: Idle (52x34)_10
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -62,8 +95,8 @@ TextureImporter:
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
-  applyGammaDecoding: 0
-  cookieLightType: 0
+  applyGammaDecoding: 1
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -82,7 +115,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -94,7 +127,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -105,97 +138,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Run enmascarado_0
+      name: Idle (52x34)_0
       rect:
         serializedVersion: 2
-        x: 6
-        y: 3
-        width: 24
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 373c2c93a8ea59e45b39a94d42e3e176
-      internalID: -1709890888
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Run enmascarado_1
-      rect:
-        serializedVersion: 2
-        x: 38
-        y: 4
-        width: 24
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cd3b567a036e59f41a311499b7b7239e
-      internalID: -885155694
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Run enmascarado_2
-      rect:
-        serializedVersion: 2
-        x: 70
-        y: 4
-        width: 24
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 088faf6887e06eb4db883f796cde6ad8
-      internalID: 1645780135
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Run enmascarado_3
-      rect:
-        serializedVersion: 2
-        x: 102
-        y: 2
-        width: 24
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dfdf5804cc20c6041806f01acae17d17
-      internalID: 1912409084
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Run enmascarado_4
-      rect:
-        serializedVersion: 2
-        x: 133
+        x: 0
         y: 0
-        width: 26
-        height: 28
+        width: 52
+        height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -203,20 +152,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 413596de062c45f498309830df25723d
-      internalID: 443846020
+      spriteID: fdbd5ce4ede4ed64294403649b0119d7
+      internalID: -1075854790282143660
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Run enmascarado_5
+      name: Idle (52x34)_1
       rect:
         serializedVersion: 2
-        x: 165
+        x: 52
         y: 0
-        width: 26
-        height: 28
+        width: 52
+        height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -224,104 +173,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f027945847a58954dbb64f1e5cc0af1a
-      internalID: -228836165
+      spriteID: 727446ed6f5e67a44a56280cf68e7477
+      internalID: 8655131874898858446
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Run enmascarado_6
+      name: Idle (52x34)_2
       rect:
         serializedVersion: 2
-        x: 197
-        y: 3
-        width: 25
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e513373f9d13f8d4ab0818573b797521
-      internalID: 1389730470
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Run enmascarado_7
-      rect:
-        serializedVersion: 2
-        x: 229
-        y: 4
-        width: 25
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 935d2cbcca841154b8d3b5c82bdd4d39
-      internalID: 1346369684
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Run enmascarado_8
-      rect:
-        serializedVersion: 2
-        x: 261
-        y: 4
-        width: 25
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bce3bc1beb523bc46934a00e16ecff2f
-      internalID: 47066702
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Run enmascarado_9
-      rect:
-        serializedVersion: 2
-        x: 293
-        y: 2
-        width: 25
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 99355a36d2b8378458c6754ba3a201f9
-      internalID: 322318291
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Run enmascarado_10
-      rect:
-        serializedVersion: 2
-        x: 325
+        x: 104
         y: 0
-        width: 26
-        height: 28
+        width: 52
+        height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -329,20 +194,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d3ef5273a6a0d4f4abdf5c01105e5478
-      internalID: 2062042376
+      spriteID: 250b4e4052cf952418ed1b2c8e80f61e
+      internalID: -820654707376584040
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Run enmascarado_11
+      name: Idle (52x34)_3
       rect:
         serializedVersion: 2
-        x: 357
+        x: 156
         y: 0
-        width: 26
-        height: 28
+        width: 52
+        height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -350,8 +215,155 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c6b43f6d8ad1b964d8a0e8633add4bcf
-      internalID: -1379379306
+      spriteID: 5134f71dcb9844844b727a3f166ccb84
+      internalID: 156153531355689427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle (52x34)_4
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 0
+        width: 52
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d09a12c829831a43b22515fca17d432
+      internalID: 9127768303896570375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle (52x34)_5
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 0
+        width: 52
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3493fe4cd3c560a4abef33aad7f26bbd
+      internalID: 6417604408115182409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle (52x34)_6
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 0
+        width: 52
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 612b3549260291549bb649c8314e2068
+      internalID: 1174575801267489233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle (52x34)_7
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 0
+        width: 52
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a972262fc3542654e9873cb09d03aaf1
+      internalID: 7140330242567135557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle (52x34)_8
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 0
+        width: 52
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3c0fe1e14cec804e84ebd352d4e866d
+      internalID: -3136031247263263121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle (52x34)_9
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 0
+        width: 52
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe6a8919efab2d24cabd3b55f4ba6b07
+      internalID: 1513087955126141088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle (52x34)_10
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 0
+        width: 52
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43f6cdcd25feaa44396c6569f87fdd23
+      internalID: -1195877170302790509
       vertices: []
       indices: 
       edges: []
@@ -367,18 +379,17 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Run enmascarado_0: -1709890888
-      Run enmascarado_1: -885155694
-      Run enmascarado_10: 2062042376
-      Run enmascarado_11: -1379379306
-      Run enmascarado_2: 1645780135
-      Run enmascarado_3: 1912409084
-      Run enmascarado_4: 443846020
-      Run enmascarado_5: -228836165
-      Run enmascarado_6: 1389730470
-      Run enmascarado_7: 1346369684
-      Run enmascarado_8: 47066702
-      Run enmascarado_9: 322318291
+      Idle (52x34)_0: -1075854790282143660
+      Idle (52x34)_1: 8655131874898858446
+      Idle (52x34)_10: -1195877170302790509
+      Idle (52x34)_2: -820654707376584040
+      Idle (52x34)_3: 156153531355689427
+      Idle (52x34)_4: 9127768303896570375
+      Idle (52x34)_5: 6417604408115182409
+      Idle (52x34)_6: 1174575801267489233
+      Idle (52x34)_7: 7140330242567135557
+      Idle (52x34)_8: -3136031247263263121
+      Idle (52x34)_9: 1513087955126141088
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
